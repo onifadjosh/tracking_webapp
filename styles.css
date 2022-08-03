@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
@@ -36,6 +37,7 @@ header{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    scroll-behavior: smooth;
 }
 
 .svgbox1{
@@ -104,10 +106,8 @@ header{
 
 header>nav>h1{
     flex-basis: 40%;
-    font-size:clamp(1rem, 1.5vw, 5rem);
+    font-size:clamp(1.3rem, 1.5vw, 5rem);
     color: var(--seccol);
-    /* padding-top: 5px; */
-
 }
 
 .navbar{
@@ -115,7 +115,6 @@ header>nav>h1{
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-
 }
 
 .nav-item{
@@ -127,13 +126,13 @@ header>nav>h1{
     font-weight: 300;
     text-decoration: none;
     color: var(--seccol);
-    /* z-index: 5; */
 }
 
 .nav-link:hover{
-    color: var(--seccol);
+    /* color: var(--seccol);
     font-size: clamp(1.4rem, 1.5vw, 4.5rem);
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s; */
+    color: #48D4A5;
 }
 
 
@@ -142,7 +141,6 @@ header>nav>h1{
     justify-content: space-between;
     align-items: center;
     gap: 70px;
-
 }
 
 
@@ -174,10 +172,10 @@ header>nav>h1{
 .get:hover{
     background: var(--seccol); 
     color: #48D4A5;
-    padding: 12px 23px;
+    /* padding: 12px 23px;
     font-size: clamp(1.4rem, 1.3vh, 2.5rem);
     border-radius: 20px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s; */
 }
 
 
@@ -210,7 +208,7 @@ header>nav>h1{
     align-items: center;
     height: 70vh;
     background-color: var(--primcol);
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 
@@ -251,8 +249,7 @@ header>nav>h1{
 
 
 .phone{
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
 
 .image-cont{
@@ -267,7 +264,6 @@ header>nav>h1{
     line-height: 1.8rem;
     text-decoration: none;
     text-align: start;
-    
 }
 
 
@@ -301,6 +297,7 @@ header>nav>h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .section1-heading{
