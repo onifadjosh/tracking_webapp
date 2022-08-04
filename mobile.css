@@ -34,6 +34,9 @@
     .col-2{
         display: none;
     }
+    .col-1{
+        width: 50px;
+    }
 
     .footer{
         display: flex;
@@ -94,7 +97,7 @@
     }
 
     .accordion-wrapper{
-        width: 70%;
+        width: 100%;
     }
 
     .plan>ul>li{
