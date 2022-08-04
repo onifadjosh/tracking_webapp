@@ -60,6 +60,9 @@
     .hamburger.active{
         background-color: var(--primcol);
         z-index: 10;
+        position: fixed;
+        right: 0%;
+        top: 15%;
     }
 
     .hamburger.active .bar:nth-child(2){
