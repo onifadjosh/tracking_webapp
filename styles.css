@@ -416,7 +416,7 @@ header>nav>h1{
 }
 
 .plan>ul>li>span{
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .plan:hover{
@@ -546,6 +546,11 @@ header>nav>h1{
     overflow: hidden;
 }
 
+.panel>p{
+    display: flex;
+    justify-content: center;
+}
+
 .col-1, .col-2{
     display: flex;
     flex-direction: column;
@@ -586,9 +591,11 @@ header>nav>h1{
 .col2-head, .col3-head{
     font-size:clamp(1.5rem, 1.5vw, 7rem);
     font-weight: 600;
+    color: #222A41;
 }
 .col1-head{
     font-size:clamp(2rem, 2vw, 10.5rem);
+    color: #222A41;
 }
 
 .main2,.main1{
@@ -626,6 +633,7 @@ header>nav>h1{
 .company-socials>h4{
     font-size:1.5rem;
     font-weight: 400;
+    color: #222A41;
 }
 .fa-2xl{
     line-height: unset;
