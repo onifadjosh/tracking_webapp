@@ -102,4 +102,73 @@
         line-height: 35px;
     }
 
+    
+
+}
+
+@media screen and (max-width: 600px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .col1-head{
+        text-align: center;
+    }
+
+    .company-socials1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .main2,.col2-head, .company-socials,.company-socials1>h4 {
+        display: none;
+    }
+    .main1{
+        text-align: center;
+    }
+
+    /* designing mobile download buttons */
+    .download-buttons{
+        display: flex;
+        font-family: var(--ff);
+        font-size: 0.5rem;
+        line-height: 1rem;
+        text-decoration: none;
+        text-align: start;
+    }
+
+    .desk-icon{display: none;}
+    .mob-icon{display: block;}
+    
+    
+    
+    .appstore{
+        background-color: #FFFFFF;
+        padding: 1.4px 2.5px;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        width: inherit;
+        
+    }
+    
+    
+    .google{
+        background-color: #000000;
+        padding: 1.4px 2.5px;
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+    
+    .second{
+        font-size:1.3em;
+    }
+
+
 }

@@ -266,7 +266,7 @@ header>nav>h1{
     text-align: start;
 }
 
-
+.mob-icon{display: none;}
 
 .appstore{
     background-color: #FFFFFF;
@@ -297,7 +297,7 @@ header>nav>h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 55px;
 }
 
 .section1-heading{
@@ -571,7 +571,7 @@ header>nav>h1{
    
 }
 .company-info>li>a{
-    font-size: clamp(0.5rem, 1vw, 5rem);
+    font-size: clamp(1rem, 1vw, 5rem);
     font-weight: 300;
     text-decoration: none;
     color: #6D7783;
@@ -579,20 +579,20 @@ header>nav>h1{
 
 .company-info>li>a:hover{
     color: var(--primcol);
-    font-size: clamp(0.9rem, 1.2vw, 2.8rem);
-    transition: ease-in-out 0.2s;
+    /* font-size: clamp(0.9rem, 1.2vw, 2.8rem);
+    transition: ease-in-out 0.2s; */
 }
 
 .col2-head, .col3-head{
-    font-size:clamp(1.0rem, 1.0vw, 7rem);
-    font-weight: 500;
+    font-size:clamp(1.5rem, 1.5vw, 7rem);
+    font-weight: 600;
 }
 .col1-head{
-    font-size:clamp(1.5rem, 2vw, 10.5rem);
+    font-size:clamp(2rem, 2vw, 10.5rem);
 }
 
 .main2,.main1{
-    font-size:clamp(0.5rem, 1vw, 5rem);
+    font-size:clamp(0.9rem, 1vw, 5rem);
     font-weight: 300;
     color: #6D7783;
 }
@@ -605,7 +605,7 @@ header>nav>h1{
     "col1-head col2-head col3-head"
     "main1 main2 company-info"
     "company-socials . .";
-    gap: 20px 40px;
+    gap: 10px 40px;
 }
 
 .footer-wrapper{
@@ -614,12 +614,19 @@ header>nav>h1{
     align-items: center;
 }
 
+.company-socials1{
+    display: none;
+}
+
 .company-socials{
     display: flex;
     gap: 15px;
 }
 
 .company-socials>h4{
-    font-size: 1rem;
-    font-weight: 100;
+    font-size:1.5rem;
+    font-weight: 400;
+}
+.fa-2xl{
+    line-height: unset;
 }
